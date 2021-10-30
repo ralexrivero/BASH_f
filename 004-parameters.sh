@@ -4,5 +4,5 @@
 PROGRAM_NAME=$0
 NAME=$1
 DATE=$(date)
-echo Program name 0: $PROGRAM_NAME
+echo Script name 0: $PROGRAM_NAME in $(pwd)
 echo Hello $NAME, today is $DATE

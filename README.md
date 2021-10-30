@@ -15,4 +15,8 @@
  - Bring execution permission ```chmod 755 file.sh```
  - Execute the file ```$ ./file.sh```
 
+## Exit code
+
+- To display the exit code after execute a script
+ - ```$ echo $?```
 

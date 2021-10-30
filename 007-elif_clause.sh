@@ -2,18 +2,12 @@
 # elif clause
 INPUT=$1
 NUMBER=50
-if [ $INPUT -lt  ($NUMBER -10) ]
+if [ $INPUT -lt  $NUMBER ]
 then
 	echo "The number is too low"
-elif [ $INPUT -lt $NUMBER ]
-then
-	echo "Your are low, increase slowlly"
-elif [ $INPUT -gt ($NUMBER+10) ]
-then
-	echo "You are too high"
 elif [ $INPUT -gt $NUMBER ]
 then
-	echo "Your are high, decrease a little bit"
+	echo "You are too high"
 else
 	echo "You have guessed it"
 fi

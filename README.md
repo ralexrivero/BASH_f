@@ -4,7 +4,7 @@
 
 - Ubuntu 20.04 LTS
 - VIM
-- shellchecker
+- shellcheck
 - BASH
 
 ## How to run the .sh files
